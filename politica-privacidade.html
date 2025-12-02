@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Política de Privacidade - Leão</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #4CAF50;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        .header .app-name {
+            color: #4CAF50;
+            font-weight: bold;
+        }
+
+        .last-update {
+            color: #7f8c8d;
+            font-size: 0.95em;
+            font-style: italic;
+        }
+
+        h2 {
+            color: #2c3e50;
+            font-size: 1.8em;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #ecf0f1;
+        }
+
+        h3 {
+            color: #34495e;
+            font-size: 1.3em;
+            margin-top: 25px;
+            margin-bottom: 12px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        ul, ol {
+            margin: 15px 0 15px 30px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .highlight-box {
+            background: #e8f5e9;
+            border-left: 4px solid #4CAF50;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 6px;
+        }
+
+        .warning-box {
+            background: #fff3e0;
+            border-left: 4px solid #ff9800;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 6px;
+        }
+
+        .info-box {
+            background: #e3f2fd;
+            border-left: 4px solid #2196F3;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 6px;
+        }
+
+        .data-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            overflow-x: auto;
+            display: block;
+        }
+
+        .data-table table {
+            width: 100%;
+            min-width: 600px;
+        }
+
+        .data-table th {
+            background: #4CAF50;
+            color: white;
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+        }
+
+        .data-table td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #ecf0f1;
+        }
+
+        .data-table tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+
+        .placeholder {
+            background: #fff9c4;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-weight: 600;
+            color: #f57f17;
+        }
+
+        .contact-section {
+            background: #f8f9fa;
+            padding: 25px;
+            border-radius: 8px;
+            margin-top: 30px;
+        }
+
+        .contact-section h2 {
+            margin-top: 0;
+            border-bottom: none;
+        }
+
+        strong {
+            color: #2c3e50;
+            font-weight: 600;
+        }
+
+        code {
+            background: #f4f4f4;
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-family: 'Courier New', monospace;
+            font-size: 0.9em;
+            color: #d73a49;
+        }
+
+        .toc {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 30px 0;
+        }
+
+        .toc h2 {
+            margin-top: 0;
+            font-size: 1.5em;
+            border-bottom: none;
+        }
+
+        .toc ul {
+            list-style: none;
+            margin-left: 0;
+        }
+
+        .toc li {
+            margin: 8px 0;
+        }
+
+        .toc a {
+            color: #4CAF50;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        .toc a:hover {
+            color: #45a049;
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+
+            .header h1 {
+                font-size: 2em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+
+            h3 {
+                font-size: 1.2em;
+            }
+
+            body {
+                padding: 10px;
+            }
+        }
+
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+
+            .container {
+                box-shadow: none;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Política de Privacidade</h1>
+            <h2 class="app-name">Leão - Transparência de Gastos Governamentais</h2>
+            <p class="last-update">Última atualização: 02 de Dezembro de 2025</p>
+        </div>
+
+        <div class="highlight-box">
+            <p><strong>Resumo Executivo:</strong> O aplicativo Leão coleta dados mínimos necessários para seu funcionamento, incluindo email, nome, localização (cidade) e dados de assinatura. Não vendemos seus dados a terceiros. Você pode solicitar a exclusão de sua conta e dados a qualquer momento.</p>
+        </div>
+
+        <div class="toc">
+            <h2>Índice</h2>
+            <ul>
+                <li><a href="#introducao">1. Introdução</a></li>
+                <li><a href="#desenvolvedor">2. Informações do Desenvolvedor</a></li>
+                <li><a href="#dados-coletados">3. Dados Coletados</a></li>
+                <li><a href="#finalidade">4. Finalidade da Coleta</a></li>
+                <li><a href="#compartilhamento">5. Compartilhamento com Terceiros</a></li>
+                <li><a href="#armazenamento">6. Armazenamento e Segurança</a></li>
+                <li><a href="#retencao">7. Retenção e Exclusão de Dados</a></li>
+                <li><a href="#direitos">8. Direitos do Usuário</a></li>
+                <li><a href="#criancas">9. Privacidade de Crianças</a></li>
+                <li><a href="#alteracoes">10. Alterações na Política</a></li>
+                <li><a href="#contato">11. Contato</a></li>
+            </ul>
+        </div>
+
+        <section id="introducao">
+            <h2>1. Introdução</h2>
+            <p>Esta Política de Privacidade descreve como o aplicativo <strong>Leão</strong> coleta, usa, armazena e protege suas informações pessoais. Ao utilizar o aplicativo, você concorda com as práticas descritas neste documento.</p>
+            <p>O Leão é um aplicativo mobile que democratiza o acesso às informações sobre gastos e arrecadação do governo federal brasileiro, apresentando dados de forma clara, intuitiva e em tempo real.</p>
+        </section>
+
+        <section id="desenvolvedor">
+            <h2>2. Informações do Desenvolvedor</h2>
+            <p><strong>Desenvolvedor:</strong> Lucas Valente de Lima</p>
+            <p><strong>Localização:</strong> Brasil</p>
+            <p><strong>E-mail de contato:</strong> leao.transparente@gmail.com</p>
+            <p><strong>Package Name (Android):</strong> com.leao.app</p>
+            <p><strong>Versão do App:</strong> 1.0.0</p>
+        </section>
+
+        <section id="dados-coletados">
+            <h2>3. Dados Coletados</h2>
+            <p>O aplicativo Leão coleta os seguintes tipos de dados pessoais:</p>
+
+            <div class="data-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tipo de Dado</th>
+                            <th>Descrição</th>
+                            <th>Obrigatório</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>Email</strong></td>
+                            <td>Usado para criar sua conta e autenticação</td>
+                            <td>Sim</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Senha</strong></td>
+                            <td>Criptografada e armazenada de forma segura</td>
+                            <td>Sim</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Nome Completo</strong></td>
+                            <td>Para personalização da experiência</td>
+                            <td>Sim</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Localização (Cidade/Estado)</strong></td>
+                            <td>Obtida via GPS para identificar sua região e fornecer conteúdo regionalizado</td>
+                            <td>Não (solicitado no cadastro)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Dados de Assinatura</strong></td>
+                            <td>Plano contratado, histórico de compras, quota de uso</td>
+                            <td>Sim (se usar planos pagos)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Dados de Uso</strong></td>
+                            <td>Perguntas feitas ao chatbot, fotos de notas fiscais enviadas, interações no app</td>
+                            <td>Automático</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Fotos/Imagens</strong></td>
+                            <td>Fotos de notas fiscais enviadas via chatbot (câmera ou galeria) para análise de impostos</td>
+                            <td>Não (somente se usar o chatbot)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Dados de Compras e Impostos</strong></td>
+                            <td>Informações extraídas de notas fiscais: valor, comerciante, categoria, impostos identificados</td>
+                            <td>Não (somente se usar o chatbot)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Token de Autenticação</strong></td>
+                            <td>JWT token armazenado localmente no dispositivo</td>
+                            <td>Automático</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3>3.1. Permissões Solicitadas pelo App</h3>
+            <ul>
+                <li><strong>Localização (ACCESS_FINE_LOCATION / ACCESS_COARSE_LOCATION):</strong> Usada uma única vez durante o cadastro para identificar automaticamente sua cidade e estado, permitindo que o app forneça informações regionalizadas sobre gastos e arrecadação governamentais. A localização é enviada ao nosso backend e armazenada junto ao seu perfil.</li>
+                <li><strong>Internet (INTERNET):</strong> Necessário para comunicação com nossos servidores e exibição de dados em tempo real de gastos e arrecadação governamentais.</li>
+                <li><strong>Câmera:</strong> Usada no chatbot para tirar fotos de notas fiscais, permitindo que o sistema identifique automaticamente os impostos pagos em suas compras. As fotos são enviadas ao servidor para processamento via IA.</li>
+                <li><strong>Armazenamento (READ_EXTERNAL_STORAGE):</strong> Para acessar a galeria de fotos do dispositivo, permitindo que você envie imagens de notas fiscais já existentes no chatbot.</li>
+                <li><strong>Armazenamento (WRITE_EXTERNAL_STORAGE):</strong> Para salvar imagens de cards compartilháveis gerados pelo app (resumo de impostos pagos).</li>
+                <li><strong>Vibração (VIBRATE):</strong> Para fornecer feedback tátil em interações do usuário (ex: botões pressionados).</li>
+                <li><strong>Exibição sobre outros apps (SYSTEM_ALERT_WINDOW):</strong> Permissão técnica padrão do React Native, não utilizada ativamente pelo app.</li>
+            </ul>
+
+            <div class="warning-box">
+                <p><strong>IMPORTANTE:</strong> A permissão de <strong>RECORD_AUDIO</strong> (gravação de áudio) está listada no manifesto do Android por questões técnicas do framework, mas <strong>NÃO é solicitada nem utilizada</strong> em nenhuma funcionalidade do aplicativo. Não gravamos áudio dos usuários.</p>
+            </div>
+        </section>
+
+        <section id="finalidade">
+            <h2>4. Finalidade da Coleta de Dados</h2>
+            <p>Os dados coletados são utilizados exclusivamente para as seguintes finalidades:</p>
+
+            <h3>4.1. Funcionalidade do Aplicativo</h3>
+            <ul>
+                <li>Criação e gerenciamento de conta de usuário</li>
+                <li>Autenticação segura (login/logout)</li>
+                <li>Personalização da experiência baseada na sua localização (dados regionais relevantes sobre gastos e arrecadação)</li>
+                <li>Exibição de dados de gastos e arrecadação governamentais em tempo real</li>
+                <li>Funcionamento do chatbot com IA para responder perguntas sobre impostos e gastos públicos</li>
+                <li>Análise de fotos de notas fiscais para identificar impostos pagos automaticamente</li>
+                <li>Cálculo e exibição do total de impostos que você pagou em suas compras</li>
+                <li>Geração de cards compartilháveis com seu resumo de impostos</li>
+            </ul>
+
+            <h3>4.2. Sistema de Assinaturas</h3>
+            <ul>
+                <li>Gerenciamento de planos (Free, Pro, Premium)</li>
+                <li>Processamento de pagamentos via RevenueCat</li>
+                <li>Controle de quota de uso (perguntas ao chatbot, fotos)</li>
+                <li>Histórico de assinaturas e transações</li>
+            </ul>
+
+            <h3>4.3. Melhoria do Serviço</h3>
+            <ul>
+                <li>Análise de uso do aplicativo para melhorias futuras</li>
+                <li>Identificação e correção de erros técnicos</li>
+                <li>Otimização de performance</li>
+            </ul>
+
+            <div class="warning-box">
+                <p><strong>Importante:</strong> NÃO utilizamos seus dados para marketing de terceiros, venda de listas de e-mail ou publicidade direcionada externa ao app.</p>
+            </div>
+        </section>
+
+        <section id="compartilhamento">
+            <h2>5. Compartilhamento de Dados com Terceiros</h2>
+            <p>O aplicativo Leão utiliza serviços de terceiros confiáveis para funcionar adequadamente. Seus dados podem ser compartilhados com:</p>
+
+            <h3>5.1. Serviços Essenciais de Terceiros</h3>
+            <div class="data-table">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Serviço</th>
+                            <th>Finalidade</th>
+                            <th>Dados Compartilhados</th>
+                            <th>Versão/SDK</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>RevenueCat</strong></td>
+                            <td>Sistema de assinaturas e pagamentos in-app (Google Play / App Store)</td>
+                            <td>ID do usuário, dados de compra, plano contratado, histórico de transações</td>
+                            <td>react-native-purchases v9.6.4</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Railway</strong></td>
+                            <td>Hospedagem do backend (infraestrutura de servidores)</td>
+                            <td>Todos os dados processados pela API (cadastro, chat, imagens, compras)</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Supabase</strong></td>
+                            <td>Banco de dados PostgreSQL (armazenamento)</td>
+                            <td>Todos os dados cadastrais, transacionais, mensagens de chat, metadados de imagens</td>
+                            <td>-</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Expo</strong></td>
+                            <td>Framework React Native e serviços (location, image-picker, sharing, fonts)</td>
+                            <td>Logs de erros e crashes (anônimos), dados de build</td>
+                            <td>expo ~54.0.23</td>
+                        </tr>
+                        <tr>
+                            <td><strong>AsyncStorage</strong></td>
+                            <td>Armazenamento local seguro no dispositivo (offline)</td>
+                            <td>Token JWT de autenticação, preferências do usuário (APENAS LOCALMENTE)</td>
+                            <td>@react-native-async-storage v2.2.0</td>
+                        </tr>
+                        <tr>
+                            <td><strong>React Query (TanStack)</strong></td>
+                            <td>Cache e sincronização de dados</td>
+                            <td>Cache temporário em memória (APENAS LOCALMENTE)</td>
+                            <td>@tanstack/react-query v5.90.7</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3>5.2. Garantias de Proteção</h3>
+            <ul>
+                <li>Todos os serviços terceiros listados são empresas reconhecidas e em conformidade com leis de proteção de dados</li>
+                <li>A comunicação com servidores externos ocorre sempre via HTTPS (conexão criptografada)</li>
+                <li>Não vendemos, alugamos ou comercializamos seus dados pessoais com terceiros</li>
+                <li>Compartilhamentos ocorrem apenas quando estritamente necessário para o funcionamento do app</li>
+            </ul>
+
+            <h3>5.3. Obrigações Legais</h3>
+            <p>Podemos divulgar suas informações se exigido por lei, ordem judicial, ou para:</p>
+            <ul>
+                <li>Cumprir obrigações legais ou regulatórias</li>
+                <li>Proteger direitos, propriedade ou segurança do desenvolvedor e usuários</li>
+                <li>Investigar possíveis violações dos Termos de Uso</li>
+            </ul>
+        </section>
+
+        <section id="armazenamento">
+            <h2>6. Armazenamento e Segurança dos Dados</h2>
+
+            <h3>6.1. Localização dos Servidores</h3>
+            <p>Seus dados são armazenados em servidores seguros localizados em:</p>
+            <ul>
+                <li><strong>Backend (Railway):</strong> Estados Unidos (servidores em nuvem gerenciados pela Railway)</li>
+                <li><strong>Banco de Dados (Supabase):</strong> Estados Unidos (infraestrutura AWS)</li>
+            </ul>
+            <div class="info-box">
+                <p><strong>Transferência Internacional de Dados:</strong> Como os servidores estão localizados nos Estados Unidos, seus dados são transferidos internacionalmente. Garantimos que todos os prestadores de serviço seguem padrões rigorosos de segurança e conformidade com LGPD.</p>
+            </div>
+
+            <h3>6.2. Medidas de Segurança Implementadas</h3>
+            <ul>
+                <li><strong>Criptografia em Trânsito:</strong> Todas as comunicações entre o app e servidores usam HTTPS/TLS</li>
+                <li><strong>Criptografia de Senhas:</strong> Senhas são criptografadas usando algoritmos seguros (bcrypt/argon2) antes do armazenamento</li>
+                <li><strong>Tokens JWT:</strong> Sistema de autenticação com tokens temporários e seguros</li>
+                <li><strong>Armazenamento Local Seguro:</strong> Dados sensíveis armazenados no dispositivo usando AsyncStorage (isolado por app)</li>
+                <li><strong>Acesso Restrito:</strong> Apenas pessoal autorizado tem acesso aos servidores de produção</li>
+                <li><strong>Backups Regulares:</strong> Cópias de segurança automatizadas do banco de dados</li>
+            </ul>
+
+            <div class="warning-box">
+                <p><strong>Limitações:</strong> Embora implementemos medidas de segurança robustas, nenhum sistema é 100% seguro. Não podemos garantir segurança absoluta contra ataques sofisticados ou violações de segurança.</p>
+            </div>
+        </section>
+
+        <section id="retencao">
+            <h2>7. Retenção e Exclusão de Dados</h2>
+
+            <h3>7.1. Período de Retenção</h3>
+            <p>Seus dados pessoais são mantidos enquanto sua conta estiver ativa e pelos seguintes períodos após a inativação:</p>
+            <ul>
+                <li><strong>Dados cadastrais:</strong> Mantidos até solicitação de exclusão</li>
+                <li><strong>Dados de assinatura:</strong> Mantidos por até 5 anos para fins fiscais e contábeis (conforme legislação brasileira)</li>
+                <li><strong>Logs de acesso:</strong> Mantidos por até 6 meses</li>
+                <li><strong>Dados de uso (analytics):</strong> Anonimizados e agregados, mantidos indefinidamente</li>
+            </ul>
+
+            <h3>7.2. Como Solicitar a Exclusão de Dados</h3>
+            <p>Você pode solicitar a exclusão completa de sua conta e dados pessoais a qualquer momento seguindo os passos:</p>
+
+            <div class="highlight-box">
+                <h4>Processo de Exclusão de Conta:</h4>
+                <ol>
+                    <li>Envie um e-mail para <strong>leao.transparente@gmail.com</strong> com o assunto: <strong>"Solicitação de Exclusão de Conta - LGPD"</strong></li>
+                    <li>Informe o e-mail cadastrado na conta e nome completo</li>
+                    <li>Aguarde até 30 dias úteis para processamento completo</li>
+                    <li>Você receberá uma confirmação por e-mail quando a exclusão for concluída</li>
+                </ol>
+                <p style="margin-top: 15px;"><strong>Alternativa:</strong> Você também pode solicitar a exclusão diretamente pelo app através do menu Perfil → Configurações → Excluir Conta (se disponível na sua versão).</p>
+            </div>
+
+            <h3>7.3. O que acontece após a exclusão?</h3>
+            <ul>
+                <li>Todos os seus dados cadastrais (email, nome, cidade) serão permanentemente removidos do banco de dados</li>
+                <li>Mensagens do chatbot e fotos de notas fiscais enviadas serão excluídas</li>
+                <li>Dados de compras e impostos rastreados serão removidos</li>
+                <li>Você não poderá mais acessar o aplicativo com a conta excluída</li>
+                <li>Dados de transações financeiras de assinaturas poderão ser mantidos por obrigação legal fiscal (até 5 anos)</li>
+                <li>Dados anonimizados em estatísticas agregadas permanecerão (não é possível identificá-lo)</li>
+                <li>A exclusão é <strong>irreversível</strong> - você precisará criar uma nova conta para usar o app novamente</li>
+            </ul>
+        </section>
+
+        <section id="direitos">
+            <h2>8. Direitos do Usuário (LGPD)</h2>
+            <p>De acordo com a Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/2018), você tem os seguintes direitos:</p>
+
+            <ul>
+                <li><strong>Acesso:</strong> Solicitar cópia de todos os dados pessoais que temos sobre você</li>
+                <li><strong>Correção:</strong> Corrigir dados incompletos, inexatos ou desatualizados</li>
+                <li><strong>Exclusão:</strong> Solicitar a exclusão de dados pessoais (exceto quando houver obrigação legal de retenção)</li>
+                <li><strong>Portabilidade:</strong> Receber seus dados em formato estruturado e legível por máquina</li>
+                <li><strong>Revogação de Consentimento:</strong> Retirar consentimento a qualquer momento (pode impactar funcionalidades)</li>
+                <li><strong>Oposição:</strong> Se opor ao tratamento de dados para finalidades específicas</li>
+                <li><strong>Revisão de Decisões Automatizadas:</strong> Solicitar revisão de decisões tomadas unicamente por sistemas automatizados</li>
+            </ul>
+
+            <div class="info-box">
+                <p><strong>Como exercer seus direitos:</strong> Entre em contato conosco através do e-mail <strong>leao.transparente@gmail.com</strong> especificando qual direito deseja exercer. Responderemos em até 15 dias úteis.</p>
+            </div>
+        </section>
+
+        <section id="criancas">
+            <h2>9. Privacidade de Crianças e Adolescentes</h2>
+            <p>O aplicativo Leão <strong>não é direcionado a crianças menores de 13 anos</strong>.</p>
+
+            <h3>9.1. Política para Menores de Idade</h3>
+            <ul>
+                <li><strong>Menores de 13 anos:</strong> NÃO devem usar o aplicativo. Não coletamos intencionalmente dados de crianças abaixo dessa faixa etária</li>
+                <li><strong>Entre 13 e 18 anos:</strong> O uso do aplicativo deve ocorrer com supervisão e consentimento dos pais ou responsáveis legais</li>
+            </ul>
+
+            <h3>9.2. Descoberta de Dados de Menores</h3>
+            <p>Se descobrirmos que coletamos inadvertidamente informações pessoais de uma criança menor de 13 anos sem consentimento parental verificável:</p>
+            <ul>
+                <li>Excluiremos essas informações imediatamente</li>
+                <li>Suspenderemos a conta associada</li>
+                <li>Notificaremos os responsáveis, se possível</li>
+            </ul>
+
+            <div class="warning-box">
+                <p><strong>Pais e Responsáveis:</strong> Se você acredita que seu filho forneceu informações pessoais ao aplicativo, entre em contato imediatamente através do e-mail <strong>leao.transparente@gmail.com</strong> para que possamos tomar as medidas apropriadas.</p>
+            </div>
+        </section>
+
+        <section id="alteracoes">
+            <h2>10. Alterações nesta Política de Privacidade</h2>
+            <p>Podemos atualizar esta Política de Privacidade periodicamente para refletir:</p>
+            <ul>
+                <li>Mudanças em nossas práticas de privacidade</li>
+                <li>Novas funcionalidades do aplicativo</li>
+                <li>Alterações na legislação aplicável</li>
+                <li>Feedback dos usuários</li>
+            </ul>
+
+            <h3>10.1. Como você será notificado?</h3>
+            <ul>
+                <li>Alterações significativas serão notificadas por e-mail</li>
+                <li>A versão atualizada será publicada nesta página com a data de "Última atualização"</li>
+                <li>Notificações in-app poderão ser exibidas em casos de mudanças importantes</li>
+            </ul>
+
+            <p><strong>Recomendamos que você revise esta política periodicamente para se manter informado sobre como protegemos seus dados.</strong></p>
+        </section>
+
+        <section id="contato" class="contact-section">
+            <h2>11. Contato e Dúvidas</h2>
+            <p>Se você tiver qualquer dúvida, preocupação ou solicitação relacionada a esta Política de Privacidade ou ao tratamento de seus dados pessoais, entre em contato conosco:</p>
+
+            <div style="margin-top: 20px;">
+                <p><strong>Desenvolvedor:</strong> Lucas Valente de Lima</p>
+                <p><strong>E-mail:</strong> leao.transparente@gmail.com</p>
+                <p><strong>Localização:</strong> Brasil</p>
+                <p><strong>GitHub:</strong> <a href="https://github.com/Luckeera" target="_blank" rel="noopener">https://github.com/Luckeera</a></p>
+                <p><strong>Projeto:</strong> <a href="https://github.com/Luckeera/Leao" target="_blank" rel="noopener">https://github.com/Luckeera/Leao</a></p>
+            </div>
+
+            <div class="info-box" style="margin-top: 20px;">
+                <p><strong>Prazo de Resposta:</strong> Nos comprometemos a responder todas as solicitações em até <strong>15 dias úteis</strong>.</p>
+            </div>
+        </section>
+
+        <hr style="margin: 40px 0; border: none; border-top: 2px solid #ecf0f1;">
+
+        <div style="text-align: center; color: #7f8c8d; font-size: 0.9em; margin-top: 30px;">
+            <p><strong>Conformidade Legal:</strong> Esta Política de Privacidade está em conformidade com:</p>
+            <ul style="list-style: none; padding: 0;">
+                <li>Lei Geral de Proteção de Dados (LGPD - Lei nº 13.709/2018) - Brasil</li>
+                <li>Marco Civil da Internet (Lei nº 12.965/2014) - Brasil</li>
+                <li>Google Play Store Data Safety Requirements</li>
+            </ul>
+            <p style="margin-top: 20px;">© 2025 Lucas Valente de Lima. Todos os direitos reservados.</p>
+            <p>Desenvolvido com dedicação para promover transparência governamental.</p>
+        </div>
+    </div>
+</body>
+</html>
